@@ -1,0 +1,22 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "Firebase Radical AI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"src/index.js",
+    "deploy":"firebase deploy --only functions:api"
+  },
+  "author": "Farron",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.12.1",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.1"
+  },
+  "engines": {
+    "node":"20"
+  }
+
+}
